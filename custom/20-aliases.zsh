@@ -1,3 +1,7 @@
 alias yaourtupgrade="yaourt -Syua"
-alias cqsescreen="xrandr --output VGA1 --primary --mode 1920x1200 --right-of LVDS1 --output LVDS1 --auto &"
+alias display-home-standard="xrandr --output VGA1 --primary --mode 1680x1050 --right-of LVDS1 --output LVDS1 --auto &"
+alias display-cqse="xrandr --output VGA1 --primary --mode 1920x1200 --right-of LVDS1 --output LVDS1 --auto &"
+alias display-niederwerrn="xrandr --newmode 1440x900_60.00  106.50  1440 1528 1672 1904  900 903 909 934 -hsync +vsyn && xrandr --addmode VGA1 1440x900_60.00 && xrandr --output LVDS1 --mode 1280x800 --output VGA1 --left-of LVDS1 --mode 1440x900_60.00 &"
+alias display-laptop-only="xrandr --output LVDS1 --mode 1280x800 --output VGA1 --off"
+alias display-wine-mode="xrandr --output LVDS1 --off --output VGA --auto"
 alias pig="ping www.google.de"
