@@ -5,3 +5,4 @@ alias display-niederwerrn="xrandr --newmode 1440x900_60.00  106.50  1440 1528 16
 alias display-laptop-only="xrandr --output LVDS1 --mode 1280x800 --output VGA1 --off"
 alias display-wine-mode="xrandr --output LVDS1 --off --output VGA --auto"
 alias pig="ping www.google.de"
+alias weather="curl -4 http://wttr.in/"
